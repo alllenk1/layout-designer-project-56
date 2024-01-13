@@ -1,0 +1,16 @@
+@mixin reset-styles {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@mixin title-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@mixin title-regular {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+

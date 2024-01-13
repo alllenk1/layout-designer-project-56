@@ -1,0 +1,36 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: 
+    url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  src: 
+    url("../fonts/Roboto-Bold.ttf");
+}
+
+* {
+  @include reset-styles
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: $grey;
+  background-color: $black;
+}
+
+.container {
+  position: relative;
+
+  box-sizing: border-box;
+
+  max-width: 1200px;
+
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
