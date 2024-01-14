@@ -1,0 +1,35 @@
+.page-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  
+  .app-block {
+    display: flex;
+  
+    .app-item {
+      max-width: 600px;
+
+      font-size: $text-1;
+
+      &:last-of-type {
+        margin: 0 auto;
+      }
+    }
+  
+    .app-btn {
+      margin-top: 16px;
+      padding: 16px 40px;
+  
+      font-size: $small;
+  
+      background-color: $brown;
+      border: none;
+      border-radius: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .app-block {
+    flex-direction: column-reverse;
+  }
+}

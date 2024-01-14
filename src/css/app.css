@@ -312,6 +312,9 @@ body {
   justify-content: space-between;
   margin-bottom: 65px;
 }
+.page-news .news:last-of-type {
+  margin-bottom: 0;
+}
 .page-news .news .news-item {
   max-width: 575px;
 }
@@ -378,6 +381,103 @@ body {
   }
   .news-odd {
     flex-direction: column-reverse;
+  }
+}
+.page-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.page-app .app-block {
+  display: flex;
+}
+.page-app .app-block .app-item {
+  max-width: 600px;
+  font-size: 16px;
+}
+.page-app .app-block .app-item:last-of-type {
+  margin: 0 auto;
+}
+.page-app .app-block .app-btn {
+  margin-top: 16px;
+  padding: 16px 40px;
+  font-size: 12.8px;
+  background-color: #95390c;
+  border: none;
+  border-radius: 32px;
+}
+
+@media screen and (max-width: 414px) {
+  .app-block {
+    flex-direction: column-reverse;
+  }
+}
+.footer {
+  color: #e0e0e0;
+  font-size: 16px;
+}
+.footer .columns-wrapper {
+  padding-top: 62px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .columns-wrapper .columns-item {
+  width: 270px;
+  margin-right: 40px;
+  color: #fff;
+}
+.footer .columns-wrapper .columns-item h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.footer .columns-wrapper .columns-item:last-of-type {
+  margin-right: 0;
+}
+.footer .columns-wrapper .columns-item .column-list {
+  margin-top: 15px;
+  list-style-type: none;
+}
+.footer .columns-wrapper .columns-item .column-list .column-list-item a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+.footer .columns-wrapper .media-icons {
+  display: flex;
+}
+.footer .columns-wrapper .media-icons .column-list-item {
+  margin-right: 24px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 49px;
+  list-style-type: none;
+}
+.footer-links .footer-links-item a {
+  margin-right: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+@media screen and (max-width: 414px) {
+  .columns-wrapper {
+    flex-direction: column;
+  }
+  .columns-wrapper .columns-item {
+    margin-bottom: 30px;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer-links .footer-links-item {
+    margin-bottom: 16px;
   }
 }
 
