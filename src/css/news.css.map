@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"news.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/news.scss"],"names":[],"mappings":"AAAA;EACE;EACA","file":"news.css"}

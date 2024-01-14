@@ -1,13 +1,7 @@
 .page-pricing {
-  padding: 100px 0;
+  margin-top: 100px;
   text-align: center;
   color: $white;
-
-  .pricing-title {
-    margin-bottom: 45px;
-    font-size: $h2-size-desk;
-    text-transform: uppercase;
-  }
 
   .card-box {
     display: flex;
@@ -16,9 +10,10 @@
     justify-content: center;
 
     .card {
-      width: 366px;
+      box-sizing: border-box;
+      width: 368px;
       padding: 0 1.5rem;
-      margin-right: 50px;
+      margin-right: 46px;
   
       border: 1px solid white;
       border-radius: 1rem;
@@ -96,7 +91,6 @@
   .page-pricing {
     width: 100%;
     padding: 0 20px;
-    margin: 100px 0;
 
     .pricing-title {
       margin-bottom: 45px;
@@ -108,6 +102,10 @@
         width: 100%;
         margin-right: 0;
         margin-bottom: 50px;
+
+        .card-title {
+          font-size: $h3-size-mob;
+        }
 
         &:last-of-type {
           margin-bottom: 40px;
