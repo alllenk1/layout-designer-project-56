@@ -34,3 +34,24 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  padding: 20px 30px;
+
+  color: $white;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.btn-trans {
+  background: transparent;
+}
+
+.btn-green {
+  background-color: $green;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    max-width: 414px;
+  }
+}

@@ -1,0 +1,118 @@
+.page-pricing {
+  padding: 100px 0;
+  text-align: center;
+  color: $white;
+
+  .pricing-title {
+    margin-bottom: 45px;
+    font-size: $h2-size-desk;
+    text-transform: uppercase;
+  }
+
+  .card-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+    .card {
+      width: 366px;
+      padding: 0 1.5rem;
+      margin-right: 50px;
+  
+      border: 1px solid white;
+      border-radius: 1rem;
+
+      background-position: center;
+      background-size: cover;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+  
+      .card-title {
+        margin-top: 24px;
+        margin-bottom: 200px;
+
+        font-size: $h3-size-desk;
+        line-height: $h3-ln-desc;
+        text-transform: uppercase;
+      }
+  
+      .card-price {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+
+        margin-bottom: 40px;
+        line-height: 1em;
+        font-size: $text-3;
+
+        .card-num {
+          padding-right: 15px;
+          font-size: $text-7;
+          line-height: 1em;
+        }
+
+        .card-currency {
+          line-height: 1em;
+        }
+      }
+  
+      .card-btn {
+        width: 100%;
+  
+        font-size: 13.3px;
+        border: 1px solid $white;
+      }
+
+      .card-description {
+        margin: 64px 0;
+        font-size: $small;
+      }
+    }
+  }
+
+  .price-description {
+    margin-top: 43px;
+    font-size: $text-1;
+  }
+}
+
+.free-bg {
+  background-image: url('../images/subscribe_1.png');
+}
+
+.standart-bg {
+  background-image: url('../images/subscribe_2.png');
+}
+
+.premium-bg {
+  background-image: url('../images/subscribe_3.png');
+}
+
+@media screen and (max-width: 414px) {
+  .page-pricing {
+    width: 100%;
+    padding: 0 20px;
+    margin: 100px 0;
+
+    .pricing-title {
+      margin-bottom: 45px;
+      font-size: $h2-size-mob;
+    }
+
+    .card-box {
+      .card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+
+        &:last-of-type {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
