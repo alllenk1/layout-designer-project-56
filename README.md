@@ -1,4 +1,4 @@
-Ссылка на сайт: alert-card.surge.sh
+Ссылка на сайт: noxious-north.surge.sh
 
 ### Hexlet tests and linter status:
 

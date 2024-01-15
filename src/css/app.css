@@ -255,20 +255,18 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
 }
 .page-pricing .card-box .card {
   box-sizing: border-box;
   width: 368px;
+  height: 615px;
   padding: 0 1.5rem;
-  margin-right: 46px;
   border-radius: 1rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.page-pricing .card-box .card:last-of-type {
-  margin-right: 0;
+  text-align: center;
 }
 .page-pricing .card-box .card .card-title {
   margin-top: 24px;
@@ -297,13 +295,13 @@ h2 {
   line-height: 1.3em;
 }
 .page-pricing .card-box .card .card-btn {
-  padding: 21px 0;
-  width: 100%;
+  padding: 21px 115px;
   font-size: 16px;
   line-height: 1.5;
   border: 1px solid #fff;
 }
 .page-pricing .card-box .card .card-description {
+  width: 318px;
   margin: 64px 0;
   font-size: 12.8px;
 }
@@ -345,7 +343,7 @@ h2 {
     margin-bottom: 40px;
   }
   .page-pricing .price-description {
-    margin-top: -10px;
+    margin-top: 0px;
   }
 }
 .page-news {
