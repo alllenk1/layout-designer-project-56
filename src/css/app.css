@@ -91,6 +91,7 @@ h2 {
   }
   h2 {
     font-size: 18px;
+    font-weight: 400;
   }
   .card-title {
     font-size: 16px;
@@ -270,12 +271,13 @@ h2 {
 }
 .page-pricing .card-box .card .card-title {
   margin-top: 24px;
-  margin-bottom: 200px;
   font-size: 24px;
-  line-height: 45px;
+  font-weight: 400;
+  line-height: 1.5;
   text-transform: uppercase;
 }
 .page-pricing .card-box .card .card-price {
+  margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -287,15 +289,17 @@ h2 {
 .page-pricing .card-box .card .card-price .card-num {
   padding-right: 15px;
   font-size: 64px;
-  line-height: 3.2rem;
+  line-height: 1em;
 }
 .page-pricing .card-box .card .card-price .card-currency {
   text-transform: uppercase;
-  line-height: 1em;
+  line-height: 1.3em;
 }
 .page-pricing .card-box .card .card-btn {
+  padding: 21px 0;
   width: 100%;
   font-size: 16px;
+  line-height: 1.5;
   border: 1px solid #fff;
 }
 .page-pricing .card-box .card .card-description {

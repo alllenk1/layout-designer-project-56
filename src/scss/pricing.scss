@@ -26,14 +26,14 @@
   
       .card-title {
         margin-top: 24px;
-        margin-bottom: 200px;
-
         font-size: $h3-size-desk;
-        line-height: $h3-ln-desc;
+        font-weight: 400;
+        line-height: 1.5;
         text-transform: uppercase;
       }
   
       .card-price {
+        margin-top: 200px;
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -46,19 +46,21 @@
         .card-num {
           padding-right: 15px;
           font-size: $text-7;
-          line-height: 3.2rem;
+          line-height: 1em;
         }
 
         .card-currency {
           text-transform: uppercase;
-          line-height: 1em;
+          line-height: 1.3em;
         }
       }
   
       .card-btn {
+        padding: 21px 0;
         width: 100%;
   
         font-size: 16px;
+        line-height: 1.5;
         border: 1px solid $white;
       }
 

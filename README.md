@@ -1,4 +1,4 @@
-Ссылка на сайт: https://grouchy-bun.surge.sh/
+Ссылка на сайт: https://gleaming-rings.surge.sh/
 
 ### Hexlet tests and linter status:
 
