@@ -1,4 +1,4 @@
-Ссылка на сайт: https://substantial-unit.surge.sh/
+Ссылка на сайт: https://combative-fan.surge.sh/
 
 ### Hexlet tests and linter status:
 
