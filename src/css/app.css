@@ -261,7 +261,6 @@ h2 {
   width: 368px;
   padding: 0 1.5rem;
   margin-right: 46px;
-  border: 1px solid white;
   border-radius: 1rem;
   background-position: center;
   background-size: cover;
@@ -334,10 +333,14 @@ h2 {
     margin-bottom: 50px;
   }
   .page-pricing .card-box .card .card-title {
+    margin-top: 16px;
     font-size: 16px;
   }
   .page-pricing .card-box .card:last-of-type {
     margin-bottom: 40px;
+  }
+  .page-pricing .price-description {
+    margin-top: -10px;
   }
 }
 .page-news {

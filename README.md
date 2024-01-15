@@ -1,4 +1,4 @@
-Ссылка на сайт: https://plastic-jellyfish.surge.sh/
+Ссылка на сайт: https://grouchy-bun.surge.sh/
 
 ### Hexlet tests and linter status:
 

@@ -14,8 +14,7 @@
       width: 368px;
       padding: 0 1.5rem;
       margin-right: 46px;
-  
-      border: 1px solid white;
+
       border-radius: 1rem;
 
       background-position: center;
@@ -104,6 +103,7 @@
         margin-bottom: 50px;
 
         .card-title {
+          margin-top: 16px;
           font-size: $h3-size-mob;
         }
 
@@ -111,6 +111,10 @@
           margin-bottom: 40px;
         }
       }
+    }
+
+    .price-description {
+      margin-top: -10px;
     }
   }
 }
