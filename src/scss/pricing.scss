@@ -47,10 +47,11 @@
         .card-num {
           padding-right: 15px;
           font-size: $text-7;
-          line-height: 1em;
+          line-height: 3.2rem;
         }
 
         .card-currency {
+          text-transform: uppercase;
           line-height: 1em;
         }
       }
@@ -58,7 +59,7 @@
       .card-btn {
         width: 100%;
   
-        font-size: 13.3px;
+        font-size: 16px;
         border: 1px solid $white;
       }
 
@@ -90,7 +91,6 @@
 @media screen and (max-width: 414px) {
   .page-pricing {
     width: 100%;
-    padding: 0 20px;
 
     .pricing-title {
       margin-bottom: 45px;

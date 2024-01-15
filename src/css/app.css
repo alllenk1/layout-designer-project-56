@@ -288,14 +288,15 @@ h2 {
 .page-pricing .card-box .card .card-price .card-num {
   padding-right: 15px;
   font-size: 64px;
-  line-height: 1em;
+  line-height: 3.2rem;
 }
 .page-pricing .card-box .card .card-price .card-currency {
+  text-transform: uppercase;
   line-height: 1em;
 }
 .page-pricing .card-box .card .card-btn {
   width: 100%;
-  font-size: 13.3px;
+  font-size: 16px;
   border: 1px solid #fff;
 }
 .page-pricing .card-box .card .card-description {
@@ -322,7 +323,6 @@ h2 {
 @media screen and (max-width: 414px) {
   .page-pricing {
     width: 100%;
-    padding: 0 20px;
   }
   .page-pricing .pricing-title {
     margin-bottom: 45px;

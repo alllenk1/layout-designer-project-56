@@ -1,4 +1,4 @@
-Ссылка на сайт: https://combative-fan.surge.sh/
+Ссылка на сайт: https://plastic-jellyfish.surge.sh/
 
 ### Hexlet tests and linter status:
 
