@@ -208,43 +208,44 @@ h2 {
 }
 
 @media screen and (max-width: 414px) {
-  .menu-wrapper {
+  .header .menu-wrapper {
     width: 100%;
     padding: 0 20px;
     flex-direction: column;
     align-items: flex-start;
-    align-content: space-between;
+    align-content: flex-start;
+    justify-content: start;
   }
-  .menu-wrapper .logo-block {
+  .header .menu-wrapper .logo-block {
     margin-bottom: 17px;
   }
-  .menu-wrapper .nav-block {
+  .header .menu-wrapper .nav-block {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 23px;
   }
-  .menu-wrapper .search-input {
+  .header .menu-wrapper .search-input {
     width: 374px;
   }
-  .header-description {
+  .header .header-description {
     text-align: center;
   }
-  .header-description .header-title {
+  .header .header-description .header-title {
     margin-top: 50px;
     font-size: 30px;
   }
-  .header-description .header-subtitle {
+  .header .header-description .header-subtitle {
     font-size: 18px;
   }
-  .header-description .header-txt {
+  .header .header-description .header-txt {
     margin-top: 16px;
   }
-  .header-description .header-input {
+  .header .header-description .header-input {
     width: 100%;
   }
 }
 .page-pricing {
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   color: #fff;
 }
@@ -339,7 +340,7 @@ h2 {
   }
 }
 .page-news {
-  padding: 100px 0 0 0;
+  padding-top: 100px;
 }
 .page-news .news {
   display: flex;
@@ -368,13 +369,17 @@ h2 {
 }
 .page-news .news .news-item-text {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-size: 16px;
   color: #cacaca;
 }
+.page-news .news .news-item-text-second {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
 .page-news .news .news-item-footer {
   display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
   font-size: 12px;
 }
 .page-news .news .news-item-footer .news-author {
@@ -431,10 +436,14 @@ h2 {
 .page-app .app-block .app-item:last-of-type {
   margin: 0 auto;
 }
+.page-app .app-block .app-item .app-description-text {
+  margin-top: 20px;
+}
 .page-app .app-block .app-btn {
   margin-top: 16px;
   padding: 16px 40px;
   font-size: 12.8px;
+  text-transform: capitalize;
   background-color: #95390c;
   border: none;
   border-radius: 32px;

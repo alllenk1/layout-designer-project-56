@@ -1,4 +1,4 @@
-Ссылка на сайт: https://well-to-do-tendency.surge.sh/
+Ссылка на сайт: https://substantial-unit.surge.sh/
 
 ### Hexlet tests and linter status:
 

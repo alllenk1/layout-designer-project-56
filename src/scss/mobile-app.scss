@@ -13,6 +13,10 @@
       &:last-of-type {
         margin: 0 auto;
       }
+
+      .app-description-text {
+        margin-top: 20px;
+      }
     }
   
     .app-btn {
@@ -20,6 +24,7 @@
       padding: 16px 40px;
   
       font-size: $small;
+      text-transform: capitalize;
   
       background-color: $brown;
       border: none;

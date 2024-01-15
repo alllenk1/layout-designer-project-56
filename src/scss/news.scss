@@ -1,5 +1,5 @@
 .page-news {
-  padding: 100px 0 0 0;
+  padding-top: 100px;
 
   .news {
     display: flex;
@@ -35,16 +35,21 @@
 
       .news-item-text {
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
 
         font-size: $text-1;
         color: $grey;
       }
 
+      .news-item-text-second {
+        margin-top: 30px;
+        margin-bottom: 16px;
+      }
+
       .news-item-footer {
         display: flex;
 
-        margin-bottom: 48px;
+        margin-bottom: 60px;
         font-size: 12px;
         
         .news-author {
