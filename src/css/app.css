@@ -44,7 +44,7 @@ h2 {
 }
 
 .section-title {
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 
 .section-title-artist {
@@ -247,7 +247,7 @@ h2 {
   }
 }
 .page-pricing {
-  padding-top: 100px;
+  padding-top: 95px;
   text-align: center;
   color: #fff;
 }
@@ -263,6 +263,7 @@ h2 {
   padding: 0 1.5rem;
   margin-right: 46px;
   border-radius: 1rem;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }

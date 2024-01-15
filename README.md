@@ -1,4 +1,4 @@
-Ссылка на сайт: https://gleaming-rings.surge.sh/
+Ссылка на сайт: alert-card.surge.sh
 
 ### Hexlet tests and linter status:
 
