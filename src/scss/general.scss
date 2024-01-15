@@ -41,11 +41,19 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 45px;
   font-size: $h2-size-desk;
   text-align: center;
   text-transform: uppercase;
   color: $white;
+}
+
+.section-title {
+  margin-bottom: 45px;
+}
+
+.section-title-artist {
+  margin-bottom: 48px;
+  text-align: start;
 }
 
 .txt {

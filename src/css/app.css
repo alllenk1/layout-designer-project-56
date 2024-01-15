@@ -36,11 +36,19 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 45px;
   font-size: 38px;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+}
+
+.section-title {
+  margin-bottom: 45px;
+}
+
+.section-title-artist {
+  margin-bottom: 48px;
+  text-align: start;
 }
 
 .txt {
@@ -108,7 +116,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  align-items: flex-start;
+  align-items: center;
   font-size: 11px;
   line-height: 11px;
   text-transform: uppercase;
