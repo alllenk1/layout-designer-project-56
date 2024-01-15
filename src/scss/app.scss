@@ -2,9 +2,15 @@
 @import "mixins";
 @import "general";
 
-// blocks
+// main page blocks
 @import "header";
 @import "pricing";
 @import "news";
 @import "mobile-app";
 @import "footer";
+
+// artist blocks
+@import "artist-header";
+@import "popular-tracks";
+@import "discography";
+@import "similar-artist";

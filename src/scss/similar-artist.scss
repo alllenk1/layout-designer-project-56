@@ -1,0 +1,58 @@
+.similar-artists {
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+  .similar-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    .similar-item {
+      margin-right: 50px;
+      margin-bottom: 25px;
+
+      .similar-img {
+        margin-bottom: 18px;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+      }
+
+      .similar-info {
+        text-align: center;
+
+        .similar-artist-name {
+          font-size: 18px;
+          font-weight: bold;
+          color: $white;
+        }
+
+        .similar-subscribers-count {
+          font-size: 16px;
+          color: $light-grey;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .similar-artists {
+    .similar-img {
+      width: 137px;
+    }
+  
+    .similar-block {
+
+      .similar-item {
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+
+        .similar-info {
+          width: 137px;
+        }
+      }
+    }
+  }
+}

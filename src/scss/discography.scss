@@ -1,0 +1,41 @@
+.discography {
+  padding-top: 100px;
+
+  .discography-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    .discography-item {
+      margin-right: 50px;
+      margin-bottom: 25px;
+
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+
+      .album-cover {
+        margin-bottom: 18px;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+.discography {
+  .album-cover {
+    width: 137px;
+  }
+
+  .discography-blocks {
+    .discography-item {
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+}

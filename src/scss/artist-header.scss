@@ -1,0 +1,64 @@
+.artist-header-bg {
+  background-image: url("../images/Morten\ Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  position: relative;
+  padding: 200px 0;
+
+  .artist-buttons-wrapper {
+    margin-top: 48px;
+
+    .artist-btn  {
+      width: 200px;
+      padding: 20px 0 20px 67px;
+      font-size: 12.8px;
+      text-align: start;
+      text-transform: uppercase;
+
+      &:first-of-type {
+        margin-right: 1.5rem;
+      }
+    }
+
+    .play-btn {
+      position: relative;
+
+      &::before {
+        @include icon-before-position;
+
+        width: 20px;
+        height: 20px;
+        
+        content: url("../images/play-button.svg");
+        filter: invert(1)
+      }
+    }
+
+    .favorites-btn {
+      position: relative;
+
+      &::before {
+        @include icon-before-position;
+
+        width: 20px;
+        height: 20px;
+
+        content: url("../images/heart.svg");
+        filter: invert(1)
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header-artist-title {
+    padding-top: 55px;
+  }
+
+  .artist-btn {
+    margin-bottom: 1rem;
+  }
+}

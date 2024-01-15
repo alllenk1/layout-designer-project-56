@@ -1,0 +1,48 @@
+.popular-tracks {
+  padding-top: 100px;
+
+  .popular-tracks-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    .popular-track {
+      position: relative;
+      display: flex;
+      width: 550px;
+      margin-right: 50px;
+      margin-bottom: 25px;
+      color: $light-grey;
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+
+      .track-info {
+        margin-left: 15px;
+        font-size: 12.8px;
+
+        .track-name {
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .track-time {
+          position: absolute;
+          top: 30%;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .popular-tracks {
+    .popular-tracks-block {
+      .popular-track {
+        margin-right: 0;
+      }
+    }
+  }
+}

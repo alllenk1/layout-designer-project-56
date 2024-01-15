@@ -1,71 +1,73 @@
-.header {
-  position: relative;
-
-  padding: 200px 0;
+.main-header-bg {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
-.menu-wrapper {
-  position: absolute;
-  top: -175px;
-  left: 0;
+.header {
+  position: relative;
+  padding: 200px 0;
 
-  width: 100%;
+  .menu-wrapper {
+    position: absolute;
+    top: -175px;
+    left: 0;
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: center;
+    width: 100%;
 
-  font-size: 11px;
-  line-height: 11px;
-  text-transform: uppercase;
-
-  a {
-    color: $white;
-    text-decoration: none;
-  }
-
-  .logo-block {
     display: flex;
-    align-items: center;
-    margin-right: 90px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
 
-    .logo-img {
-      margin-right: 16px;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+
+    a {
+      color: $white;
+      text-decoration: none;
     }
-  }
 
-  .nav-block {
-    display: flex;
-    list-style-type: none;
+    .logo-block {
+      display: flex;
+      align-items: center;
+      margin-right: 90px;
 
-    .nav-block-item {
-      margin-right: 24px;
-      line-height: 1.5;
+      .logo-img {
+        margin-right: 16px;
+      }
     }
-  }
 
-  .search-box {
-    margin-right: 0px;
-    margin-left: auto;
+    .nav-block {
+      display: flex;
+      list-style-type: none;
 
-    .search-input {
-      box-sizing: border-box;
-      width: 248px;
-      height: 25px;
-      padding: 5px 0 5px 10px;
-      
-      background: transparent;
-      background-color: $dark-grey;
-      border: none;
-      border-radius: 50px;
+      .nav-block-item {
+        margin-right: 24px;
+        line-height: 1.5;
+      }
+    }
 
-      &::placeholder {
-        font-size: 13.3px;
-        text-transform: uppercase;
+    .search-box {
+      margin-right: 0px;
+      margin-left: auto;
+
+      .search-input {
+        box-sizing: border-box;
+        width: 248px;
+        height: 25px;
+        padding: 5px 0 5px 10px;
+        
+        background: transparent;
+        background-color: $dark-grey;
+        border: none;
+        border-radius: 50px;
+
+        &::placeholder {
+          font-size: 13.3px;
+          text-transform: uppercase;
+        }
       }
     }
   }
@@ -129,7 +131,6 @@
 }
 
 @media screen and (max-width: 414px) {
-  .header {
     .menu-wrapper {
       width: 100%;
       padding: 0 20px;
@@ -172,6 +173,5 @@
       .header-input {
         width: 100%;
       }
-    }
   }
 }

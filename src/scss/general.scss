@@ -33,11 +33,23 @@ body {
   margin: 0 auto;
 }
 
-.section-title {
+h1 {
+  font-size: $h1-size-desk;
+  @include title-bold;
+
+  color: $white;
+}
+
+h2 {
   margin-bottom: 45px;
   font-size: $h2-size-desk;
   text-align: center;
   text-transform: uppercase;
+  color: $white;
+}
+
+.txt {
+  font-size: $text-1;
   color: $white;
 }
 
@@ -46,6 +58,7 @@ body {
 
   color: $white;
   text-transform: uppercase;
+  border: none;
   border-radius: 5px;
 }
 
@@ -57,13 +70,25 @@ body {
   background-color: $green;
 }
 
+.btn-brown {
+  background-color: $brown;
+}
+
+.btn-purple {
+  background-color: $purple;
+}
+
 @media screen and (max-width: 414px) {
   .container {
     max-width: 414px;
     padding: 0 20px;
   }
 
-  .section-title {
+  h1 {
+    font-size: $h1-size-mob;
+  }
+
+  h2 {
     font-size: $h2-size-mob;
   }
 
