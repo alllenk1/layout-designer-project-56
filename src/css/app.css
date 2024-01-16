@@ -479,7 +479,7 @@ h2 {
   font-size: 16px;
 }
 .footer .columns-wrapper {
-  padding: 3rem 0;
+  padding: 62px 0 72px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -516,7 +516,7 @@ h2 {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 40px 0 49px 0;
   list-style-type: none;
 }
 .footer-links .footer-links-item a {
@@ -531,20 +531,25 @@ h2 {
 }
 
 @media screen and (max-width: 414px) {
-  .columns-wrapper {
+  .footer .columns-wrapper {
+    padding: 62px 0 75px 0;
     flex-direction: column;
   }
-  .columns-wrapper .columns-item {
+  .footer .columns-wrapper .columns-item {
     margin-bottom: 30px;
   }
-  .columns-wrapper .columns-item:last-of-type {
+  .footer .columns-wrapper .columns-item:last-of-type {
     margin-bottom: 0;
   }
-  .footer-links {
+  .footer .footer-links {
+    padding: 40px 0 47px 0;
     flex-direction: column;
   }
-  .footer-links .footer-links-item {
+  .footer .footer-links .footer-links-item {
     margin-bottom: 16px;
+  }
+  .footer .footer-links .footer-links-item:last-of-type {
+    margin-bottom: 0;
   }
 }
 .artist-header-bg {

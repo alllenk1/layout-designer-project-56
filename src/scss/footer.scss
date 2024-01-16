@@ -3,7 +3,7 @@
   font-size: $text-1;
 
   .columns-wrapper {
-    padding: 3rem 0;
+    padding: 62px 0 72px 0;
     display: flex;
     flex-wrap: wrap;
   
@@ -50,7 +50,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  padding: 2rem 0;
+  padding: 40px 0 49px 0;
   list-style-type: none;
 
   .footer-links-item a {
@@ -66,7 +66,9 @@
 }
 
 @media screen and (max-width: 414px) {
+.footer {
   .columns-wrapper {
+    padding: 62px 0 75px 0;
     flex-direction: column;
 
     .columns-item {
@@ -79,10 +81,16 @@
   }
 
   .footer-links {
+    padding: 40px 0 47px 0;
     flex-direction: column;
 
     .footer-links-item {
       margin-bottom: 16px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
+}
 }

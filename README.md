@@ -1,4 +1,4 @@
-Ссылка на сайт: https://materialistic-lock.surge.sh/
+Ссылка на сайт: https://silly-grain.surge.sh/
 
 ### Hexlet tests and linter status:
 
