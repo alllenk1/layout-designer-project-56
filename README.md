@@ -1,4 +1,4 @@
-Ссылка на сайт: stiff-curtain.surge.sh
+Ссылка на сайт: dysfunctional-drawer.surge.sh
 
 ### Hexlet tests and linter status:
 

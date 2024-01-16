@@ -670,6 +670,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  color: #fff;
 }
 .discography .discography-blocks .discography-item {
   margin-right: 50px;
@@ -694,8 +695,8 @@ h2 {
   }
 }
 .similar-artists {
-  padding-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 85px;
+  margin-bottom: 85px;
 }
 .similar-artists .similar-block {
   display: flex;
