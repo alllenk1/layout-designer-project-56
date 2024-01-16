@@ -1,4 +1,4 @@
-Ссылка на сайт: noxious-low.surge.sh
+Ссылка на сайт: acrid-land.surge.sh
 
 ### Hexlet tests and linter status:
 
