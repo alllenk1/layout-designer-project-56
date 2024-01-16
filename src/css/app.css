@@ -261,6 +261,7 @@ h2 {
   justify-content: space-between;
 }
 .page-pricing .card-box .card {
+  box-sizing: border-box;
   width: 368.197px;
   height: 615px;
   padding: 0 1.5rem;
@@ -294,7 +295,7 @@ h2 {
 .page-pricing .card-box .card .card-price .card-currency {
   text-transform: uppercase;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 45px;
 }
 .page-pricing .card-box .card .card-btn {
   font-family: "Roboto";
@@ -328,13 +329,6 @@ h2 {
 }
 
 @media screen and (max-width: 414px) {
-  .page-pricing {
-    width: 100%;
-  }
-  .page-pricing .pricing-title {
-    margin-bottom: 45px;
-    font-size: 18px;
-  }
   .page-pricing .card-box .card {
     width: 374px;
     height: 598px;
@@ -343,6 +337,7 @@ h2 {
   .page-pricing .card-box .card .card-title {
     margin-top: 16px;
     font-size: 16px;
+    line-height: 24px;
   }
   .page-pricing .card-box .card:last-of-type {
     margin-bottom: 40px;
