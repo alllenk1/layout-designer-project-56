@@ -261,11 +261,12 @@ h2 {
   justify-content: space-between;
 }
 .page-pricing .card-box .card {
-  width: 374px;
-  height: 650px;
+  width: 368.197px;
+  height: 615px;
   padding: 0 1.5rem;
   border-radius: 1rem;
   background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
 }
 .page-pricing .card-box .card .card-title {

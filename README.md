@@ -1,4 +1,4 @@
-Ссылка на сайт: courageous-plants.surge.sh
+Ссылка на сайт: lackadaisical-wax.surge.sh
 
 ### Hexlet tests and linter status:
 
