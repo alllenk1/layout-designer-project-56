@@ -278,24 +278,20 @@ h2 {
   line-height: 1.5;
   text-transform: uppercase;
 }
-.page-pricing .card-box .card .card-price {
+.page-pricing .card-box .card .pricing-value {
+  margin-bottom: 38px;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 48px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 40px;
-  line-height: 1em;
-  font-size: 32px;
 }
-.page-pricing .card-box .card .card-price .card-num {
+.page-pricing .card-box .card .pricing-value .price {
   padding-right: 15px;
   font-size: 64px;
   line-height: 1em;
-}
-.page-pricing .card-box .card .card-price .card-currency {
-  text-transform: uppercase;
-  font-weight: 400;
-  line-height: 45px;
 }
 .page-pricing .card-box .card .card-btn {
   font-family: "Roboto";
@@ -332,7 +328,7 @@ h2 {
   .page-pricing .card-box .card {
     width: 374px;
     height: 598px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
   .page-pricing .card-box .card .card-title {
     margin-top: 16px;

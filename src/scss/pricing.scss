@@ -35,26 +35,23 @@
         text-transform: uppercase;
       }
   
-      .card-price {
+      .pricing-value {
+        margin-bottom: 38px;
+        text-transform: uppercase;
+
+        font-size: 32px;
+        line-height: 48px;
+
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: center;
 
-        margin-bottom: 40px;
-        line-height: 1em;
-        font-size: $text-3;
-
-        .card-num {
+        .price {
           padding-right: 15px;
-          font-size: $text-7;
-          line-height: 1em;
-        }
 
-        .card-currency {
-          text-transform: uppercase;
-          font-weight: 400;
-          line-height: 45px;
+          font-size: 64px;
+          line-height: 1em;
         }
       }
   
@@ -113,7 +110,7 @@
       .card {
         width: 374px;
         height: 598px;
-        margin-bottom: 50px;
+        margin-bottom: 48px;
 
         .card-title {
           margin-top: 16px;

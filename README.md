@@ -1,4 +1,4 @@
-Ссылка на сайт: third-position.surge.sh
+Ссылка на сайт: naughty-wing.surge.sh
 
 ### Hexlet tests and linter status:
 
