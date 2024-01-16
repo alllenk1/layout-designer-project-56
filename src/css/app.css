@@ -49,7 +49,6 @@ h2 {
 }
 
 .section-title-artist {
-  margin-bottom: 48px;
   text-align: start;
 }
 
@@ -631,6 +630,7 @@ h2 {
 .popular-tracks .popular-tracks-block .popular-track {
   position: relative;
   display: flex;
+  align-items: center;
   width: 550px;
   margin-right: 50px;
   margin-bottom: 25px;
@@ -656,6 +656,11 @@ h2 {
 @media screen and (max-width: 414px) {
   .popular-tracks .popular-tracks-block .popular-track {
     margin-right: 0;
+  }
+  .popular-tracks .popular-tracks-block .popular-track .track-info .track-time {
+    position: absolute;
+    top: 25%;
+    right: 0;
   }
 }
 .discography {

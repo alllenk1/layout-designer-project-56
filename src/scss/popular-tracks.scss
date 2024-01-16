@@ -9,6 +9,7 @@
     .popular-track {
       position: relative;
       display: flex;
+      align-items: center;
       width: 550px;
       margin-right: 50px;
       margin-bottom: 25px;
@@ -42,6 +43,14 @@
     .popular-tracks-block {
       .popular-track {
         margin-right: 0;
+
+        .track-info {
+          .track-time {
+            position: absolute;
+            top: 25%;
+            right: 0;
+          }
+        }
       }
     }
   }

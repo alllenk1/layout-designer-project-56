@@ -1,4 +1,4 @@
-Ссылка на сайт: magenta-beds.surge.sh
+Ссылка на сайт: stiff-curtain.surge.sh
 
 ### Hexlet tests and linter status:
 
