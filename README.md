@@ -1,4 +1,4 @@
-Ссылка на сайт: lovely-bath.surge.sh
+Ссылка на сайт: exotic-dress.surge.sh
 
 ### Hexlet tests and linter status:
 

@@ -252,7 +252,7 @@ h2 {
   color: #fff;
 }
 .page-pricing .section-title {
-  margin-bottom: 46px;
+  margin-bottom: 48px;
 }
 .page-pricing .card-box {
   display: flex;
@@ -304,9 +304,12 @@ h2 {
   border: 1px solid #fff;
 }
 .page-pricing .card-box .card .card-description {
-  width: 318px;
   margin: 64px 0;
-  font-size: 12.8px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 .page-pricing .card-box .free-bg {
   background-image: url("../images/subscribe_1.png");
