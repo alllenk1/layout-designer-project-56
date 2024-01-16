@@ -1,4 +1,4 @@
-Ссылка на сайт: cloistered-motion.surge.sh
+Ссылка на сайт: naughty-show.surge.sh
 
 ### Hexlet tests and linter status:
 

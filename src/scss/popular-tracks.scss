@@ -19,6 +19,14 @@
         margin-right: 0;
       }
 
+      &:nth-child(5) {
+        margin-bottom: 0;
+      }
+
+      &:nth-child(6) {
+        margin-bottom: 0;
+      }
+
       .track-info {
         margin-left: 15px;
         font-size: 12.8px;
@@ -43,6 +51,10 @@
     .popular-tracks-block {
       .popular-track {
         margin-right: 0;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
 
         .track-info {
           .track-time {

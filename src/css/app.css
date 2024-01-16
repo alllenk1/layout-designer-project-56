@@ -639,6 +639,12 @@ h2 {
 .popular-tracks .popular-tracks-block .popular-track:nth-child(2n) {
   margin-right: 0;
 }
+.popular-tracks .popular-tracks-block .popular-track:nth-child(5) {
+  margin-bottom: 0;
+}
+.popular-tracks .popular-tracks-block .popular-track:nth-child(6) {
+  margin-bottom: 0;
+}
 .popular-tracks .popular-tracks-block .popular-track .track-info {
   margin-left: 15px;
   font-size: 12.8px;
@@ -656,6 +662,9 @@ h2 {
 @media screen and (max-width: 414px) {
   .popular-tracks .popular-tracks-block .popular-track {
     margin-right: 0;
+  }
+  .popular-tracks .popular-tracks-block .popular-track:last-of-type {
+    margin-bottom: 0;
   }
   .popular-tracks .popular-tracks-block .popular-track .track-info .track-time {
     position: absolute;
@@ -681,6 +690,10 @@ h2 {
 }
 .discography .discography-blocks .discography-item:nth-last-child(-n+4) {
   margin-bottom: 0;
+}
+.discography .discography-blocks .discography-item .album-name {
+  font-size: 18px;
+  font-weight: bold;
 }
 .discography .discography-blocks .discography-item .album-cover {
   margin-bottom: 18px;
