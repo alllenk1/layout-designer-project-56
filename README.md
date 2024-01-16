@@ -1,4 +1,4 @@
-Ссылка на сайт: smelly-creature.surge.sh
+Ссылка на сайт: noxious-low.surge.sh
 
 ### Hexlet tests and linter status:
 

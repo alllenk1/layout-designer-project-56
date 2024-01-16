@@ -261,7 +261,6 @@ h2 {
   justify-content: space-between;
 }
 .page-pricing .card-box .card {
-  box-sizing: border-box;
   width: 368px;
   height: 615px;
   padding: 0 1.5rem;
@@ -274,7 +273,7 @@ h2 {
   margin-top: 24px;
   margin-bottom: 200px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
 }
@@ -294,6 +293,7 @@ h2 {
 }
 .page-pricing .card-box .card .card-price .card-currency {
   text-transform: uppercase;
+  font-weight: 400;
   line-height: 48px;
 }
 .page-pricing .card-box .card .card-btn {
@@ -305,11 +305,10 @@ h2 {
 }
 .page-pricing .card-box .card .card-description {
   margin: 64px 0;
-  font-family: Roboto;
-  font-size: 16px;
+  font-size: 12.8px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 150%; /* 19.2px */
 }
 .page-pricing .card-box .free-bg {
   background-image: url("../images/subscribe_1.png");
@@ -323,6 +322,9 @@ h2 {
 .page-pricing .price-description {
   margin-top: 43px;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
 }
 
 @media screen and (max-width: 414px) {

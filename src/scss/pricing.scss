@@ -30,7 +30,7 @@
         margin-top: 24px;
         margin-bottom: 200px;
         font-size: $h3-size-desk;
-        font-weight: 400;
+        font-weight: 700;
         line-height: 1.5;
         text-transform: uppercase;
       }
@@ -53,6 +53,7 @@
 
         .card-currency {
           text-transform: uppercase;
+          font-weight: 400;
           line-height: 48px;
         }
       }
@@ -70,11 +71,10 @@
         // width: 318px;
         margin: 64px 0;
 
-        font-family: Roboto;
-        font-size: 16px;
+        font-size: 12.8px;
         font-style: normal;
         font-weight: 400;
-        line-height: 150%;
+        line-height: 150%; /* 19.2px */
       }
     }
 
@@ -93,7 +93,10 @@
 
   .price-description {
     margin-top: 43px;
-    font-size: $text-1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
   }
 }
 
