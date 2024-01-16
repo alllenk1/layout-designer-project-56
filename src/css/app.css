@@ -453,6 +453,7 @@ h2 {
   margin: 0 auto;
 }
 .page-app .app-block .app-item .app-description-text {
+  margin: 16px 0;
   color: #cacaca;
   font-size: 16px;
   font-style: normal;
