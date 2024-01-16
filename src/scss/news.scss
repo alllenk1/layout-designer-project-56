@@ -4,6 +4,7 @@
   .news {
     display: flex;
     justify-content: space-between;
+    padding: 0;
     margin-bottom: 65px;
 
       &:last-of-type {
@@ -35,7 +36,7 @@
 
       .news-item-text {
         margin-top: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 24px;
 
         font-size: $text-1;
         color: $grey;
@@ -66,11 +67,14 @@
       }
 
       .news-btn {
+        display: block;
         width: 135px;
+        height: 53px;
         padding: 16px 30px;
 
         font-size: 12px;
         line-height: 1.6;
+        text-align: center;
         text-transform: uppercase;
         text-decoration: none;
 
@@ -84,6 +88,7 @@
 @media screen and (max-width: 414px) {
   .news {
     flex-direction: column;
+    // border: 1px solid red;
 
     padding: 0 20px;
 
@@ -98,6 +103,18 @@
         font-size: $h3-size-mob;
         line-height: 24px;
         text-transform: capitalize;
+      }
+
+      .news-item-text {
+        margin-top: 16px;
+      }
+
+      .news-item-text-second {
+        margin-top: 16px;
+      }
+
+      .news-item-footer {
+        margin-bottom: 48px;
       }
     }
 

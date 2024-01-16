@@ -1,4 +1,4 @@
-Ссылка на сайт: https://many-key.surge.sh/
+Ссылка на сайт: https://brown-run.surge.sh/
 
 ### Hexlet tests and linter status:
 

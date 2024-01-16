@@ -182,7 +182,7 @@ h2 {
 .header-description .header-txt {
   font-size: 16px;
   margin-top: 31px;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 .header-description .header-form {
   max-width: 570px;
@@ -224,9 +224,9 @@ h2 {
   .header .menu-wrapper .nav-block {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 23px;
+    margin-bottom: 18px;
   }
-  .header .menu-wrapper .search-input {
+  .header .menu-wrapper .search-box .search-input {
     width: 374px;
   }
   .header .header-description {
@@ -240,7 +240,7 @@ h2 {
     font-size: 18px;
   }
   .header .header-description .header-txt {
-    margin-top: 16px;
+    margin-top: 15px;
   }
   .header .header-description .header-input {
     width: 100%;
@@ -329,7 +329,7 @@ h2 {
   .page-pricing .card-box .card {
     width: 374px;
     height: 598px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
   .page-pricing .card-box .card .card-title {
     margin-top: 16px;
@@ -348,6 +348,7 @@ h2 {
 .page-news .news {
   display: flex;
   justify-content: space-between;
+  padding: 0;
   margin-bottom: 65px;
 }
 .page-news .news:last-of-type {
@@ -372,7 +373,7 @@ h2 {
 }
 .page-news .news .news-item-text {
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
   font-size: 16px;
   color: #cacaca;
 }
@@ -395,10 +396,13 @@ h2 {
   text-transform: uppercase;
 }
 .page-news .news .news-btn {
+  display: block;
   width: 135px;
+  height: 53px;
   padding: 16px 30px;
   font-size: 12px;
   line-height: 1.6;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #cacaca;
@@ -421,6 +425,15 @@ h2 {
     line-height: 24px;
     text-transform: capitalize;
   }
+  .news .news-item .news-item-text {
+    margin-top: 16px;
+  }
+  .news .news-item .news-item-text-second {
+    margin-top: 16px;
+  }
+  .news .news-item .news-item-footer {
+    margin-bottom: 48px;
+  }
   .news-odd {
     flex-direction: column-reverse;
   }
@@ -440,7 +453,7 @@ h2 {
   margin: 0 auto;
 }
 .page-app .app-block .app-item .app-description-text {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .page-app .app-block .app-btn {
   margin-top: 16px;
@@ -475,6 +488,7 @@ h2 {
 .footer .columns-wrapper .columns-item h2 {
   margin-bottom: 16px;
   font-size: 17px;
+  font-weight: bold;
   text-align: left;
   text-transform: uppercase;
 }
@@ -500,7 +514,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding-top: 40px;
-  padding-bottom: 49px;
+  padding-bottom: 33px;
   list-style-type: none;
 }
 .footer-links .footer-links-item a {
