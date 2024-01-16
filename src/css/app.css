@@ -716,6 +716,9 @@ h2 {
   .discography .album-cover {
     width: 137px;
   }
+  .discography .discography-blocks .discography-item .album-name {
+    width: 140px;
+  }
   .discography .discography-blocks .discography-item:nth-child(2n) {
     margin-right: 0;
   }

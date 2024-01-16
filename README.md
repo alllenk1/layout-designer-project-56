@@ -1,4 +1,4 @@
-Ссылка на сайт: enchanting-order.surge.sh
+Ссылка на сайт: plain-apparel.surge.sh
 
 ### Hexlet tests and linter status:
 

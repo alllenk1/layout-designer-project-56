@@ -42,6 +42,10 @@
 
   .discography-blocks {
     .discography-item {
+      .album-name {
+        width: 140px;
+      }
+
       &:nth-child(2n) {
         margin-right: 0;
       }
