@@ -744,6 +744,8 @@ h2 {
 .similar-artists .similar-block .similar-item .similar-info .similar-artist-name {
   font-size: 18px;
   font-weight: bold;
+  line-height: 27px;
+  text-transform: capitalize;
   color: #fff;
 }
 .similar-artists .similar-block .similar-item .similar-info .similar-subscribers-count {

@@ -1,4 +1,4 @@
-Ссылка на сайт: naughty-show.surge.sh
+Ссылка на сайт: aboard-clam.surge.sh
 
 ### Hexlet tests and linter status:
 
