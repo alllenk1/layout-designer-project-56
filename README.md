@@ -1,4 +1,4 @@
-Ссылка на сайт: aboard-clam.surge.sh
+Ссылка на сайт: chunky-truck.surge.sh
 
 ### Hexlet tests and linter status:
 

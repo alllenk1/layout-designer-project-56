@@ -339,7 +339,7 @@ h2 {
     margin-bottom: 40px;
   }
   .page-pricing .price-description {
-    margin-top: 8px;
+    margin-top: 0;
   }
 }
 .page-news {
