@@ -1,4 +1,4 @@
-Ссылка на сайт: dysfunctional-drawer.surge.sh
+Ссылка на сайт: rare-cakes.surge.sh
 
 ### Hexlet tests and linter status:
 

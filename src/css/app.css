@@ -695,8 +695,8 @@ h2 {
   }
 }
 .similar-artists {
-  padding-top: 85px;
-  margin-bottom: 85px;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 .similar-artists .similar-block {
   display: flex;
@@ -706,6 +706,9 @@ h2 {
 .similar-artists .similar-block .similar-item {
   margin-right: 50px;
   margin-bottom: 25px;
+}
+.similar-artists .similar-block .similar-item:nth-last-child(-n+4) {
+  margin-bottom: 0;
 }
 .similar-artists .similar-block .similar-item .similar-img {
   margin-bottom: 18px;
@@ -732,6 +735,12 @@ h2 {
   }
   .similar-artists .similar-block .similar-item:nth-child(2n) {
     margin-right: 0;
+  }
+  .similar-artists .similar-block .similar-item:nth-last-child(-n+4) {
+    margin-bottom: 25px;
+  }
+  .similar-artists .similar-block .similar-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
   }
   .similar-artists .similar-block .similar-item .similar-info {
     width: 137px;
