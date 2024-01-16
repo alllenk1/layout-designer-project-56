@@ -1,4 +1,4 @@
-Ссылка на сайт: plain-apparel.surge.sh
+Ссылка на сайт: lucky-afterthought.surge.sh
 
 ### Hexlet tests and linter status:
 
