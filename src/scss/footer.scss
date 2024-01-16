@@ -16,7 +16,7 @@
 
       h2 {
         margin-bottom: 16px;
-        font-size: 17px;
+        font-size: 18px;
         font-weight: bold;
         text-align: left;
         text-transform: uppercase;
@@ -73,6 +73,10 @@
 
     .columns-item {
       margin-bottom: 30px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
 

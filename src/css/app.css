@@ -44,6 +44,7 @@ h2 {
 }
 
 .section-title {
+  font-weight: bold;
   margin-bottom: 48px;
 }
 
@@ -456,6 +457,9 @@ h2 {
   margin-top: 16px;
 }
 .page-app .app-block .app-btn {
+  display: block;
+  width: 131px;
+  height: 53px;
   margin-top: 16px;
   padding: 16px 40px;
   font-size: 12.8px;
@@ -487,7 +491,7 @@ h2 {
 }
 .footer .columns-wrapper .columns-item h2 {
   margin-bottom: 16px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
@@ -534,6 +538,9 @@ h2 {
   }
   .columns-wrapper .columns-item {
     margin-bottom: 30px;
+  }
+  .columns-wrapper .columns-item:last-of-type {
+    margin-bottom: 0;
   }
   .footer-links {
     flex-direction: column;
