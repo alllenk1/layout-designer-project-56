@@ -1,4 +1,4 @@
-Ссылка на сайт: lackadaisical-wax.surge.sh
+Ссылка на сайт: moldy-substance.surge.sh
 
 ### Hexlet tests and linter status:
 
