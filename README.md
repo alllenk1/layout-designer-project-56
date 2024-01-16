@@ -1,4 +1,4 @@
-Ссылка на сайт: acrid-land.surge.sh
+Ссылка на сайт: courageous-plants.surge.sh
 
 ### Hexlet tests and linter status:
 

@@ -16,15 +16,15 @@
     .card {
       // box-sizing: border-box;
 
-      width: 368px;
-      height: 615px;
+      width: 374px;
+      height: 650px;
 
       padding: 0 1.5rem;
       border-radius: 1rem;
 
       background-repeat: no-repeat;
-      background-position: top;
-      background-size: 368px 615px;
+      // background-position: cover;
+      background-size: cover;
   
       .card-title {
         margin-top: 24px;
