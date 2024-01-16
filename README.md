@@ -1,4 +1,4 @@
-Ссылка на сайт: exotic-dress.surge.sh
+Ссылка на сайт: smelly-creature.surge.sh
 
 ### Hexlet tests and linter status:
 
