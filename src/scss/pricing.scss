@@ -58,7 +58,8 @@
       }
   
       .card-btn {
-        padding: 21px 115px;
+        font-family: "Roboto";
+        padding: 20px 115px;
   
         font-size: 16px;
         line-height: 1.5;
@@ -111,9 +112,9 @@
           font-size: $h3-size-mob;
         }
 
-        // &:last-of-type {
-        //   margin-bottom: 40px;
-        // }
+        &:last-of-type {
+          margin-bottom: 40px;
+        }
       }
     }
 

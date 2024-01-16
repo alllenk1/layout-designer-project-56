@@ -1,4 +1,4 @@
-Ссылка на сайт: disturbed-canvas.surge.sh
+Ссылка на сайт: lovely-bath.surge.sh
 
 ### Hexlet tests and linter status:
 

@@ -297,7 +297,8 @@ h2 {
   line-height: 48px;
 }
 .page-pricing .card-box .card .card-btn {
-  padding: 21px 115px;
+  font-family: "Roboto";
+  padding: 20px 115px;
   font-size: 16px;
   line-height: 1.5;
   border: 1px solid #fff;
@@ -337,6 +338,9 @@ h2 {
   .page-pricing .card-box .card .card-title {
     margin-top: 16px;
     font-size: 16px;
+  }
+  .page-pricing .card-box .card:last-of-type {
+    margin-bottom: 40px;
   }
   .page-pricing .price-description {
     margin-top: 0;
