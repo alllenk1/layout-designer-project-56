@@ -479,8 +479,7 @@ h2 {
   font-size: 16px;
 }
 .footer .columns-wrapper {
-  padding-top: 62px;
-  padding-bottom: 72px;
+  padding: 3rem 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -517,8 +516,7 @@ h2 {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 33px;
+  padding: 2rem 0;
   list-style-type: none;
 }
 .footer-links .footer-links-item a {
