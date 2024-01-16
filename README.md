@@ -1,4 +1,4 @@
-Ссылка на сайт: noxious-north.surge.sh
+Ссылка на сайт: https://many-key.surge.sh/
 
 ### Hexlet tests and linter status:
 
