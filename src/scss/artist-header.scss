@@ -8,10 +8,17 @@
   position: relative;
   padding: 200px 0;
 
+  .header-artist-title {
+    padding-top: 50px;
+    margin-bottom: 16px;
+  }
+
   .artist-buttons-wrapper {
     margin-top: 48px;
 
     .artist-btn  {
+      margin-bottom: 25px;
+      display: inline-block;
       width: 200px;
       padding: 20px 0 20px 67px;
       font-size: 12.8px;
@@ -54,11 +61,14 @@
 }
 
 @media screen and (max-width: 414px) {
-  .header-artist-title {
-    padding-top: 55px;
-  }
+  .header {
+    .header-artist-title {
 
-  .artist-btn {
-    margin-bottom: 1rem;
+      padding-top: 25px;
+    }
+
+    .artist-btn {
+      margin-bottom: 1rem;
+    }
   }
 }

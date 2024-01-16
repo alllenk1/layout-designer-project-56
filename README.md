@@ -1,4 +1,4 @@
-Ссылка на сайт: https://silly-grain.surge.sh/
+Ссылка на сайт: magenta-beds.surge.sh
 
 ### Hexlet tests and linter status:
 
