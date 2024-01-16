@@ -1,4 +1,4 @@
-Ссылка на сайт: naughty-wing.surge.sh
+Ссылка на сайт: clean-stove.surge.sh
 
 ### Hexlet tests and linter status:
 

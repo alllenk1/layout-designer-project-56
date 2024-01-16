@@ -453,13 +453,15 @@ h2 {
   margin: 0 auto;
 }
 .page-app .app-block .app-item .app-description-text {
-  margin-top: 16px;
+  color: #cacaca;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 16px 0;
 }
 .page-app .app-block .app-btn {
   display: block;
   width: 131px;
   height: 53px;
-  margin-top: 16px;
   padding: 16px 40px;
   font-size: 12.8px;
   text-transform: capitalize;
