@@ -1,4 +1,4 @@
-Ссылка на сайт: rare-cakes.surge.sh
+Ссылка на сайт: cloistered-motion.surge.sh
 
 ### Hexlet tests and linter status:
 

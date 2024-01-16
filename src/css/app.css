@@ -679,6 +679,9 @@ h2 {
 .discography .discography-blocks .discography-item:nth-child(4n) {
   margin-right: 0;
 }
+.discography .discography-blocks .discography-item:nth-last-child(-n+4) {
+  margin-bottom: 0;
+}
 .discography .discography-blocks .discography-item .album-cover {
   margin-bottom: 18px;
   max-width: 100%;
@@ -692,6 +695,12 @@ h2 {
   }
   .discography .discography-blocks .discography-item:nth-child(2n) {
     margin-right: 0;
+  }
+  .discography .discography-blocks .discography-item:nth-last-child(-n+4) {
+    margin-bottom: 25px;
+  }
+  .discography .discography-blocks .discography-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
   }
 }
 .similar-artists {

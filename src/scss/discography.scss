@@ -15,6 +15,10 @@
         margin-right: 0;
       }
 
+      &:nth-last-child(-n+4) {
+        margin-bottom: 0;
+      }
+
       .album-cover {
         margin-bottom: 18px;
         max-width: 100%;
@@ -35,6 +39,14 @@
     .discography-item {
       &:nth-child(2n) {
         margin-right: 0;
+      }
+
+      &:nth-last-child(-n+4) {
+        margin-bottom: 25px;
+      }
+
+      &:nth-last-child(-n+2) {
+        margin-bottom: 0;
       }
     }
   }
