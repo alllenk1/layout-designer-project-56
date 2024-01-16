@@ -267,7 +267,7 @@ h2 {
   padding: 0 1.5rem;
   border-radius: 1rem;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 .page-pricing .card-box .card .card-title {
