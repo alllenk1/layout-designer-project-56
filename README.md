@@ -1,4 +1,4 @@
-Ссылка на сайт: chunky-truck.surge.sh
+Ссылка на сайт: known-bridge.surge.sh
 
 ### Hexlet tests and linter status:
 

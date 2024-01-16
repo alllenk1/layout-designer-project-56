@@ -251,6 +251,9 @@ h2 {
   text-align: center;
   color: #fff;
 }
+.page-pricing .section-title {
+  margin-bottom: 46px;
+}
 .page-pricing .card-box {
   display: flex;
   flex-wrap: wrap;
