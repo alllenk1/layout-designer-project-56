@@ -17,8 +17,9 @@
       .app-description-text {
         color: #cacaca;
         font-size: 16px;
-        line-height: 24px;
-        margin: 16px 0;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
       }
     }
   
@@ -41,5 +42,15 @@
 @media screen and (max-width: 414px) {
   .app-block {
     flex-direction: column-reverse;
+
+    .app-item {
+      .app-description-text {
+        margin: 16px 0;
+
+        &:nth-child(1) {
+          margin-top: 9px;
+        }
+      }
+    }
   }
 }
