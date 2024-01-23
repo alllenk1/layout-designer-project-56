@@ -6,5 +6,5 @@
 
 Музыкальный портал, адаптированный под смартфоны. 
 
-![image](https://drive.google.com/file/d/1UtL63eom0nghSanHWmGJF4fihgA1aYTV/view?usp=sharing)
-![image](https://drive.google.com/file/d/1d_avXONd1rZJwJRhwnKmuZXn4xPxRmNC/view?usp=sharing)
+![image](https://drive.google.com/file/d/1UtL63eom0nghSanHWmGJF4fihgA1aYTV/view?usp=drive_link)
+![image](https://drive.google.com/file/d/1d_avXONd1rZJwJRhwnKmuZXn4xPxRmNC/view?usp=drive_link)
