@@ -6,5 +6,7 @@
 
 Музыкальный портал, адаптированный под смартфоны. 
 
-![image](https://drive.google.com/file/d/1UtL63eom0nghSanHWmGJF4fihgA1aYTV/view?usp=drive_link)
-![image](https://drive.google.com/file/d/1d_avXONd1rZJwJRhwnKmuZXn4xPxRmNC/view?usp=drive_link)
+![image](https://github.com/alllenk1/layout-designer-project-56/src/images/test-images
+/index-test-js-home-page-testing-main-section-desktop-main-section-structure-screenshots-tests-structure-screenshot-1-snap.png)
+![image](https://github.com/alllenk1/layout-designer-project-56/src/images/test-images
+/index-test-js-artist-page-testing-main-section-desktop-main-section-structure-screenshots-tests-structure-screenshot-1-snap.png)
